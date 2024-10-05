@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Models\Job;
 
+// Home Route
 Route::get('/', function ()  {
     return view('home');
 });
